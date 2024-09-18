@@ -1,0 +1,33 @@
+navlink_container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+  overflow: auto;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:solid 1px yellow;
+  transition: 1s;
+  border-radius:10px;
+  background:pink;
+  padding: 4px 4px;
+  margin-left: 4px;
+}
+.link:hover{
+  background: #000;
+  color: #fff;
+  border-radius:20px;
+}
+.navBtn_link{
+  text-align: center;
+  padding: 2px;
+  margin-top: 3px;
+  border-radius: 20px;
+  transition: 1s;
+}
+.navBtn_link:hover{
+  color:yellow;
+}
