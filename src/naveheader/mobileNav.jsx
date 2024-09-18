@@ -17,8 +17,8 @@ const MobileNav =()=>{
     <div>
 <div className="flex justify-end bg-pink gap-2 pr-2 text-3xl">
 <div><p>To day News</p></div>
-<div className="border pl-1 text-center pr-2"><Link to="search"><CiSearch /></Link></div>
-<div className="border"><button onClick={handleIsClicked}><FaAlignJustify className= "hover:bg-blue p-1" /></button></div>
+<div className="pl-1 mt-0.9 text-center pr-1"><Link to="search"><CiSearch /></Link></div>
+<div className=""><button onClick={handleIsClicked}><Link to="/search">{isClicked ? <p className="text-3xl">×</p>: <FaAlignJustify className= "hover:bg-blue p-1" />}</Link></button></div>
 </div>
 {isClicked && <div className="flex flex-col text-white text-2xl bg-[url('../src/assets/news.jpg')]">
 <div className="navBtn_link"><Link to="/home">Home</Link></div>

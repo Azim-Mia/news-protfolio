@@ -9,7 +9,7 @@
 body{
 background-image: url('./assets/flower.jpg');
 background-attachment: fixed;
-background-size: cover;
+background-size:cover;
 }
 
 @layer components {
