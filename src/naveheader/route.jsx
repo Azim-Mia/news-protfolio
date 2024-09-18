@@ -3,9 +3,9 @@ import {
   createBrowserRouter,
 } from "react-router-dom";
 import NavLink from './navlink.jsx'
-import Home from '/data/data/com.termux/files/home/news-protfolio/src/pages/home/home.jsx';
-import Sport from '/data/data/com.termux/files/home/news-protfolio/src/pages/sport/sport.jsx';
-import Search from "/data/data/com.termux/files/home/news-protfolio/src/components/searchNews/search";
+import Home from '../../src/pages/home/home.jsx';
+import Sport from '../../src/pages/sport/sport.jsx';
+import Search from "../../src/components/searchNews/search";
 const router = createBrowserRouter([
   {
     path: "/",
