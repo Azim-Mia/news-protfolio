@@ -18,31 +18,31 @@ export const router = createBrowserRouter([
        element:<Search />,
       },
             {
-        path:"home",
+        path:"/home",
        element:<Home />,
       },
             {
-        path:"sport",
+        path:"/sport",
         element:<Sport />,
       },
       {
-        path:"nu/notice",
+        path:"/nu/notice",
         element:<p>nu notice</p>,
       },
         {
-        path:"education",
+        path:"/education",
         element:<p>education</p>,
       },   
               {
-        path:"bdjobs",
+        path:"/bdjobs",
         element:<p>bdjobs</p>,
       }, 
      {
-        path:"top",
+        path:"/top",
         element:<p>top news</p>,
       }, 
            {
-        path:"live",
+        path:"/live",
         element:<p>live</p>,
       }, 
            {
@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
         element:<p>international</p>,
       }, 
              {
-        path:"search",
+        path:"/search",
        element:<Search />,
       },
       ],

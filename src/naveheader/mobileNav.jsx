@@ -20,7 +20,7 @@ const MobileNav =()=>{
 <div className="pl-1 mt-0.9 text-center pr-1"><Link to="search"><CiSearch /></Link></div>
 <div className=""><button onClick={handleIsClicked}><Link to="/search">{isClicked ? <p className="text-3xl">×</p>: <FaAlignJustify className= "hover:bg-blue p-1" />}</Link></button></div>
 </div>
-{isClicked && <div className="flex flex-col text-white text-2xl bg-[url('../src/assets/news.jpg')]">
+{isClicked && <div className="flex flex-col text-white text-2xl">
 <div className="navBtn_link"><Link to="/home">Home</Link></div>
 <div className="navBtn_link"><Link to="/education">Education</Link></div>
 <div className="navBtn_link"><Link to="/sport">Sport</Link></div>
