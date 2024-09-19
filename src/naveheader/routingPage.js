@@ -1,11 +1,11 @@
-import React from 'react';
+import '../App.css';
 import {
   createBrowserRouter,
 } from "react-router-dom";
-import NavLink from './navlink.jsx';
-import Error from '../error.jsx'
-import Home from '../../src/pages/home/home.jsx';
-import Sport from '../../src/pages/sport/sport.jsx';
+import NavLink from './navlink';
+import Error from '../error'
+import Home from '../../src/pages/home/home';
+import Sport from '../../src/pages/sport/sport';
 import Search from "../../src/components/searchNews/search";
 export const router = createBrowserRouter([
   {
