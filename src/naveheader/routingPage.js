@@ -7,15 +7,15 @@ import Error from '../error.jsx'
 import Home from '../../src/pages/home/home.jsx';
 import Sport from '../../src/pages/sport/sport.jsx';
 import Search from "../../src/components/searchNews/search";
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path: "/",
    element:<NavLink />,
    errorElement:<Error />,
     children:[
-            {
+              {
         path:"/",
-       element:<NavLink />,
+       element:<Search />,
       },
             {
         path:"home",
@@ -56,4 +56,3 @@ const router = createBrowserRouter([
       ],
   },
 ]);
-export default router;

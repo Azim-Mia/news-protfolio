@@ -1,20 +1,18 @@
 import {Link ,Outlet} from "react-router-dom";
 import "./nav.css";
-import MobileNav from './mobileNav.jsx';
-const Navlink=()=>{
-  return (<>
+//import MobileNav from './mobileNav.jsx';
+const Navlink=()=> {
+  return ( <>
   <header>
- <div className="sm:rs_dis_none xsm:rs_dis_none">
- <MobileNav />
- </div>
-  <nav className="mt-2 ssm:dis_icon_none sm:respon_sm md:respon_md lg:respon_lg">
-<div className="link"><Link to="/home">Home</Link></div>
-<div className="link"><Link to="/education">Education</Link></div>
-<div className="link"><Link to="/sport">Sport</Link></div>
-<div className="link"><Link to="/nu/notice">Nu/Nutice</Link></div>
-<div className="link"><Link to="/bdjobs">BDJobs</Link></div>
-<div className="link"><Link to="/top">TopNews</Link></div>
-<div className="link"><Link to="/international">International</Link></div>
+  <nav>
+  <ul className="flex">
+ <li className="link"><Link to="/home">Home</Link></li> 
+ <li className="link"><Link to="/education">Education</Link></li> 
+  <li className="link"><Link to="/sport">Sport</Link></li> 
+ <li className="link"><Link to="/nu/notice">Nu/notice</Link></li> 
+<li className="link"><Link to="/top">TopNews</Link></li> 
+ <li className="link"><Link to="/international">International</Link></li> 
+  </ul>
 </nav>
 </header>
 <Outlet />
