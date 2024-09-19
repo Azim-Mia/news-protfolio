@@ -3,8 +3,9 @@ import "./nav.css";
 import MobileNav from './mobileNav.jsx';
 const Navlink=()=>{
   return (<>
+  <header>
  <div className="sm:rs_dis_none xsm:rs_dis_none">
- <MobileNav/>
+ <MobileNav />
  </div>
   <nav className="mt-2 ssm:dis_icon_none sm:respon_sm md:respon_md lg:respon_lg">
 <div className="link"><Link to="/home">Home</Link></div>
@@ -15,7 +16,8 @@ const Navlink=()=>{
 <div className="link"><Link to="/top">TopNews</Link></div>
 <div className="link"><Link to="/international">International</Link></div>
 </nav>
-<div><Outlet /></div>
+</header>
+<Outlet />
 </>)
 }
 export default Navlink;

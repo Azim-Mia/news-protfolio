@@ -14,7 +14,7 @@ const MobileNav =()=>{
     }
   }
   return(<>
-    <div>
+    <nav>
 <div className="flex justify-end bg-pink gap-2 pr-2 text-3xl">
 <div><p>To day News</p></div>
 <div className="pl-1 mt-0.9 text-center pr-1"><Link to="search"><CiSearch /></Link></div>
@@ -30,7 +30,7 @@ const MobileNav =()=>{
 <div className="navBtn_link"><Link to="/top">Top News</Link></div>
 <div className="navBtn_link"><Link to="/international">International News</Link></div>
 </div>}
-    </div>
+    </nav>
     </>)
 }
 export default MobileNav;
