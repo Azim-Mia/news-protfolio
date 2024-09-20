@@ -8,7 +8,7 @@ const Navlink=()=> {
   <ul className="flex">
  <li className="link"><Link to="/news-protfolio">Home</Link></li> 
  <li className="link"><Link to="/education">Education</Link></li> 
-  <li className="link"><Link to="/news-protfolio/sport">Sport</Link></li> 
+  <li className="link"><Link to="/sport">Sport</Link></li> 
  <li className="link"><Link to="/nu/notice">Nu/notice</Link></li> 
 <li className="link"><Link to="/top">TopNews</Link></li> 
  <li className="link"><Link to="/international">International</Link></li> 

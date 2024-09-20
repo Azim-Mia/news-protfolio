@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
        element:<Home />,
       },
             {
-        path:"news-protfolio/sport",
+        path:"/sport",
         element:<Sport />,
       },
       {
@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
         element:<p>international</p>,
       }, 
              {
-        path:"news-protfolio/search",
+        path:"/search",
        element:<Search />,
       },
       ],
