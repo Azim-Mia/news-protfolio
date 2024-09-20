@@ -6,7 +6,7 @@ const Navlink=()=> {
   <header>
   <nav>
   <ul className="flex">
- <li className="link"><Link to="/news-protfolio/home">Home</Link></li> 
+ <li className="link"><Link to="/news-protfolio">Home</Link></li> 
  <li className="link"><Link to="/news-protfolio/education">Education</Link></li> 
   <li className="link"><Link to="/news-protfolio/sport">Sport</Link></li> 
  <li className="link"><Link to="/news-protfolio/nu/notice">Nu/notice</Link></li> 
