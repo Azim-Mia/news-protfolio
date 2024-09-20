@@ -9,7 +9,7 @@ import Sport from '../../src/pages/sport/sport';
 import Search from "../../src/components/searchNews/search";
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/news-protfolio",
    element:<NavLink />,
    errorElement:<Error />,
     children:[
