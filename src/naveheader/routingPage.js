@@ -14,39 +14,39 @@ export const router = createBrowserRouter([
    errorElement:<Error />,
     children:[
               {
-        path:"/news-protfolio/other",
+        path:"/news-protfolio/search",
        element:<p>hello</p>,
       },
             {
-        path:"news-protfolio/home",
+        path:"/home",
        element:<Home />,
       },
             {
-        path:"news-protfolio/sport",
+        path:"/sport",
         element:<Sport />,
       },
       {
-        path:"news-protfolio/nu/notice",
+        path:"/nu/notice",
         element:<p>nu notice</p>,
       },
         {
-        path:"news-protfolio/education",
+        path:"/education",
         element:<p>education</p>,
       },   
               {
-        path:"news-protfolio/bdjobs",
+        path:"/bdjobs",
         element:<p>bdjobs</p>,
       }, 
      {
-        path:"news-protfolio/top",
+        path:"/top",
         element:<p>top news</p>,
       }, 
            {
-        path:"news-protfolio/live",
+        path:"/live",
         element:<p>live</p>,
       }, 
            {
-        path:"news-protfolio/international",
+        path:"/international",
         element:<p>international</p>,
       }, 
              {
