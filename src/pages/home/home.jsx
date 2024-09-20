@@ -9,6 +9,7 @@ const Hone = ()=>{
  <img src={singleData.image} alt="photos" />
  </div>
   <div>
+  jjj
   <p>{singleData.description}</p>
   </div>
   </article>)
