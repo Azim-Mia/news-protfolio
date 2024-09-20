@@ -14,15 +14,15 @@ export const router = createBrowserRouter([
    errorElement:<Error />,
     children:[
               {
-        path:"/news-protfolio",
-       element:<NavLink />,
+        path:"/",
+       element:<Home />,
       },
             {
         path:"/home",
        element:<Home />,
       },
             {
-        path:"/sport",
+        path:"news-protfolio/sport",
         element:<Sport />,
       },
       {
