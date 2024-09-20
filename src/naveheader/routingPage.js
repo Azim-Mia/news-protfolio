@@ -18,19 +18,19 @@ export const router = createBrowserRouter([
        element:<Home />,
       },
             {
-        path:"/news-protfolio/home",
+        path:"home",
        element:<Home />,
       },
             {
-        path:"/news-protfolio/sport",
+        path:"sport",
         element:<Sport />,
       },
       {
-        path:"/news-protfolio/nu/notice",
+        path:"notice",
         element:<p>nu notice</p>,
       },
         {
-        path:"/news-protfolio/education",
+        path:"education",
         element:<p>education</p>,
       },   
               {
