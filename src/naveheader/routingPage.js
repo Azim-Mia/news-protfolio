@@ -18,39 +18,39 @@ export const router = createBrowserRouter([
        element:<Home />,
       },
             {
-        path:"news-protfolio/home",
+        path:"/news-protfolio/home",
        element:<Home />,
       },
             {
-        path:"news-protfolio/sport",
+        path:"/news-protfolio/sport",
         element:<Sport />,
       },
       {
-        path:"news-protfolio/nu/notice",
+        path:"/news-protfolio/nu/notice",
         element:<p>nu notice</p>,
       },
         {
-        path:"news-protfolio/education",
+        path:"/news-protfolio/education",
         element:<p>education</p>,
       },   
               {
-        path:"news-protfolio/bdjobs",
+        path:"/news-protfolio/bdjobs",
         element:<p>bdjobs</p>,
       }, 
      {
-        path:"news-protfolio/top",
+        path:"/news-protfolio/top",
         element:<p>top news</p>,
       }, 
            {
-        path:"news-protfolio/live",
+        path:"/news-protfolio/live",
         element:<p>live</p>,
       }, 
            {
-        path:"news-protfolio/international",
+        path:"/news-protfolio/international",
         element:<p>international</p>,
       }, 
              {
-        path:"news-protfolio/search",
+        path:"/news-protfolio/search",
        element:<Search />,
       },
       ],
