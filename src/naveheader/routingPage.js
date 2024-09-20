@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
         element:<Sport />,
       },
       {
-        path:"notice",
+        path:"nu/notice",
         element:<p>nu notice</p>,
       },
         {
@@ -34,23 +34,23 @@ export const router = createBrowserRouter([
         element:<p>education</p>,
       },   
               {
-        path:"/news-protfolio/bdjobs",
+        path:"bdjobs",
         element:<p>bdjobs</p>,
       }, 
      {
-        path:"/news-protfolio/top",
+        path:"top",
         element:<p>top news</p>,
       }, 
            {
-        path:"/news-protfolio/live",
+        path:"live",
         element:<p>live</p>,
       }, 
            {
-        path:"/news-protfolio/international",
+        path:"international",
         element:<p>international</p>,
       }, 
              {
-        path:"/news-protfolio/search",
+        path:"search",
        element:<Search />,
       },
       ],
