@@ -23,28 +23,16 @@
   .respon_sm{
     display: flex;
     flex-direction:row;
-    padding: 0px 30px;
-  background: #000;
-  padding-block: 5px;
-  font-size: 1rem;
-  overflow: scroll;
   cursor:pointer
   }
     .respon_md{
     display: flex;
     flex-direction:row;
-    padding: 0px 30px;
-  background:#000;
-  font-size: 1.5rem;
-  overflow: scroll;
   cursor:pointer
   }
     .respon_lg{
     display: flex;
-flex-direction:row;
-  background: #000;
-  font-size: 2rem;
-  overflow: scroll;
+    flex-direction:row;
   cursor:pointer
   }
   .dis_icon_none{

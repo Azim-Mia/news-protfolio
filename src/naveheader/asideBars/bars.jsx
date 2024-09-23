@@ -1,6 +1,7 @@
 import {useState} from 'react';
+import {NavLink } from 'react-router-dom';
+
 import "./bar.css";
-import NaveHeader from '/data/data/com.termux/files/home/news-protfolio/src/naveheader/nav.jsx';
 const Bars =() =>{
 const [burger_class, setBurgerClass] =useState("burger-bar unClicked");
 const [menu_class,setMenuClass] =useState("menu hidden");
@@ -22,12 +23,15 @@ const [isMenuClicked,setIsClicked] =useState(false);
     <div className={burger_class}></div>
     <div className={burger_class}></div>
   </div>
-
-  <div className="text-black text-3xl">
-  <div className ={menu_class}>
- <div> <input type="search" placeholder="search product" className="border text-center" />
-    <NaveHeader /></div>
-  </div>
+<div className ={menu_class}>
+<ul className="border p-2 mt-2 ml-2 mb-2">
+<li className="active:blue"><NavLink to="/news-protfolio">Home</NavLink></li>
+<li><NavLink to="/education">Education</NavLink></li>
+<li><NavLink to="/sport">Sport</NavLink></li>
+<li><NavLink to="/nu/notice">Nu Notice</NavLink></li>
+<li><NavLink to="/top">Top News</NavLink></li>
+<li><NavLink to="/international">International</NavLink></li>
+</ul>
   </div>
     </nav>
   </>)

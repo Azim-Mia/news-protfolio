@@ -2,19 +2,24 @@ import '../App.css';
 import {
   createBrowserRouter,
 } from "react-router-dom";
-import NavLink from './navlink';
+import Navlinks from './navlink';
 import Error from '../error'
 import Home from '../../src/pages/home/home';
 import Sport from '../../src/pages/sport/sport';
+import Nu from '../../src/pages/nu/nu';
+import Top from '../../src/pages/top/top';
+import International from '../../src/pages/international/international';
+import Education from '../../src/pages/education/education';
+import LearnMore from '../../src/pages/learnMore';
 import Search from "../../src/components/searchNews/search";
 export const router = createBrowserRouter([
   {
     path: "/",
-   element:<NavLink />,
+   element:<Navlinks />,
    errorElement:<Error />,
     children:[
               {
-        path:"/news-protfolio",
+        path:"/",
        element:<Home />,
       },
             {
@@ -27,11 +32,11 @@ export const router = createBrowserRouter([
       },
       {
         path:"nu/notice",
-        element:<p>nu notice</p>,
+        element:<Nu />,
       },
         {
         path:"education",
-        element:<p>education</p>,
+        element:<Education />,
       },   
               {
         path:"bdjobs",
@@ -39,7 +44,7 @@ export const router = createBrowserRouter([
       }, 
      {
         path:"top",
-        element:<p>top news</p>,
+        element:<Top />,
       }, 
            {
         path:"live",
@@ -47,11 +52,19 @@ export const router = createBrowserRouter([
       }, 
            {
         path:"international",
-        element:<p>international</p>,
+        element:<International />,
       }, 
              {
         path:"search",
        element:<Search />,
+      },
+  {
+        path:"news-protfolio/:title",
+       element:<LearnMore />,
+      },
+        {
+        path:"/:title",
+       element:<LearnMore />,
       },
       ],
   },

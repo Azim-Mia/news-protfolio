@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import { getAllData } from '/data/data/com.termux/files/home/news-protfolio/src/storeData/allData';
 import '../../index.css'
 const data =getAllData();
-const Sport = ()=>{
+const Top = ()=>{
   const trranketString=(str, num)=>{
   if(str.length > num){
     return str.slice(0, num) + " ...";
@@ -27,4 +27,4 @@ const Sport = ()=>{
    </section>
   </>)
 }
-export default Sport;
+export default Top;
