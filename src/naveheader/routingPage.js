@@ -23,7 +23,7 @@ export const router = createBrowserRouter([
        element:<Home />,
       },
             {
-        path:"home",
+        path:"news-protfolio",
        element:<Home />,
       },
             {
@@ -63,7 +63,35 @@ export const router = createBrowserRouter([
        element:<LearnMore />,
       },
         {
+        path:"top/:title",
+       element:<LearnMore />,
+      },
+              {
+        path:"nu/notice/:title",
+       element:<LearnMore />,
+      },
+              {
         path:"/:title",
+       element:<LearnMore />,
+      },
+              {
+        path:"bdjobs/:title",
+       element:<LearnMore />,
+      },
+              {
+        path:"international/:title",
+       element:<LearnMore />,
+      },
+              {
+        path:"live/:title",
+       element:<LearnMore />,
+      },
+              {
+        path:"education/:title",
+       element:<LearnMore />,
+      },
+              {
+        path:"sport/:title",
        element:<LearnMore />,
       },
       ],
