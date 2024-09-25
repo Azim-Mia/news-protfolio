@@ -18,13 +18,28 @@ const allData = {
     {id:1, title:"", description:"", content:"", image:""},
   ],
   job:{
-  graphicDesign:[
+  Dhaka:[
     {id:1, title:"", description:"", content:"", image:""},
   ],
-  officeHelper:[
+  Barishal:[
     {id:1, title:"", description:"", content:"", image:""},
   ],
-  cliner:[
+  Khulna:[
+    {id:1, title:"", description:"", content:"", image:""},
+  ],
+  Sylhet:[
+    {id:1, title:"", description:"", content:"", image:""},
+  ],
+  Chattogram:[
+    {id:1, title:"", description:"", content:"", image:""},
+  ],
+  Rajshahi:[
+    {id:1, title:"", description:"", content:"", image:""},
+  ],
+  Rangpur:[
+    {id:1, title:"", description:"", content:"", image:""},
+  ],
+  Mymenshingh:[
     {id:1, title:"", description:"", content:"", image:""},
   ],
   },

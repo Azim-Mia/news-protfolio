@@ -13,6 +13,7 @@ const Navlinks=()=> {
   <nav className="mt-2 ssm:rs_dis_none sm:respon_sm md:respon_md lg:respon_lg ">
   <ul className="flex gap-4">
  <li className="link"><NavLink to="/">Home</NavLink></li> 
+  <li className="link"><NavLink to="/job">Bd/Jobs</NavLink></li> 
  <li className="link"><NavLink to="/education">Education</NavLink></li> 
   <li className="link"><NavLink to="/sport">Sport</NavLink></li> 
  <li className="link"><NavLink to="/nu/notice">Nu/notice</NavLink></li> 

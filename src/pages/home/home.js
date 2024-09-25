@@ -1,31 +1,30 @@
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 //import {useState,useEffect} from 'react';
-import { getAllData } from '/data/data/com.termux/files/home/news-protfolio/src/storeData/allData';
+//import { getAllData } from '/data/data/com.termux/files/home/news-protfolio/src/storeData/allData';
+import Footer from '../../../src/footer/footer';
+import Header from '../../../src/header/header'
+import JobNews from '../../../src/components/homeComponents/jobnews/jobnews';
+import NewsInformation from '../../../src/components/homeComponents/newsinformation/newsinformation';
+import GovtJob from '../../../src/components/homeComponents/govtjob/govtjob';
+import SpatialJob from '../../../src/components/homeComponents/spatialjob/spatialjob';
+import BrowserCategory from '../../../src/components/homeComponents/browsercategory/browsercategory';
+import HotJob from '../../../src/components/homeComponents/hotjob/hotjob';
+import HotNews from '../../../src/components/homeComponents/hotnews/hotnews';
 import '../../index.css'
-const allData =getAllData();
+//const allData =getAllData();
 const Home = ()=>{
- 
-  const trranketString=(str, num)=>{
-  if(str.length > num){
-    return str.slice(0, num) + " ...";
-  }else{
-    return str;
-  }
-  }
   return (<>
-  <section className="justify-center items-center">
-  {allData.education.map((res)=>{
-  const {id, title,image} =res;
-  return <article key={id} className="grid p-4 ssm:grid-row md:grid-cols-2">
-  <div>
-  <img className="md:h-48 w-96" src={image} alt="photos" />
-  </div>
-  <div>
-  <p>{trranketString(title,120)}</p>
- <Link to={title}>Learn More ...</Link> 
-  </div>
-  </article>})}
-   </section>
+<Header />
+  <main className="text-center">
+  <JobNews />
+<NewsInformation />
+<GovtJob />
+<SpatialJob />
+<BrowserCategory />
+<HotJob />
+<HotNews />
+  </main>
+  <Footer />
   </>)
 }
 export default Home;
