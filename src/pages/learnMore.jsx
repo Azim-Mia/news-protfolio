@@ -4,9 +4,10 @@ import {useParams,useLocation} from "react-router-dom";
 const LearnMore =()=>{
   const {title} =useParams();
   const {description} =useLocation();
-  return (<>
-  <p>{title}</p>
- <p>{description}</p>
-  </>)
+  return (<div className="m-2">
+  <p className="text-3xl">{title}</p>
+  <hr />
+ <p className="text-2xl mt-4">{description}</p>
+  </div>)
 }
 export default LearnMore;

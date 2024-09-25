@@ -1,7 +1,7 @@
 const Footer =()=>{
   return (<>
- <footer className="bg-[#11485D] mt-0 text-[#FFF]">
-<div className="grid text-center ssm:grid-cols-1 sm:grid-cols-4 md:grid-cols-4">
+ <footer className="mt-0 bg-[#11485D] mt-0 text-[#FFF]">
+<div className="grid text-start ssm:grid-cols-1 ssm:pl-2 sm:grid-cols-4 md:grid-cols-4 md:text-center">
 <div>
   <b>About Us</b>
   <ul>

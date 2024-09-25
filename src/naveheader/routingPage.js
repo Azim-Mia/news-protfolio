@@ -4,12 +4,12 @@ import {
 } from "react-router-dom";
 import Navlinks from './navlink';
 import Error from '../error'
-import Home from '../../src/pages/home/home';
-import Sport from '../../src/pages/sport/sport';
-import Nu from '../../src/pages/nu/nu';
-import Top from '../../src/pages/top/top';
-import International from '../../src/pages/international/international';
-import Education from '../../src/pages/education/education';
+import Home from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/home/home';
+import Sport from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/sport/sport';
+import Nu from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/nu/nu';
+import Top from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/top/top';
+import International from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/international/international';
+import Education from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/education/education';
 import LearnMore from '../../src/pages/learnMore';
 import Search from "../../src/components/searchNews/search";
 export const router = createBrowserRouter([
@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
         path:"news-protfolio",
        element:<Home />,
       },
-            {
+           {
         path:"sport",
         element:<Sport />,
       },

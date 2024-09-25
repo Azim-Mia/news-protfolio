@@ -20,7 +20,7 @@ const JobNews =()=>{
 <div className ="ml-8">
 <p>New Job(302)</p>
 <p>Internship Opportutiy(21)</p>
-<p>Work from House(21)</p>
+<p className="flex">Work from House(21)</p>
 </div>
 </div>
 </article>

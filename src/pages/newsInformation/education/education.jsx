@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { getAllData } from '/data/data/com.termux/files/home/news-protfolio/src/storeData/allData';
-import '../../index.css'
+import '../../../index.css'
+import Footer from '/data/data/com.termux/files/home/news-protfolio/src/footer/footer';
 const data =getAllData();
 const Education = ()=>{
   const trranketString=(str, num)=>{
@@ -15,16 +16,17 @@ const Education = ()=>{
   <section className="justify-center items-center">
   {data.education.map((res)=>{
   const {id,image,title} =res;
-  return <article key={id} className="grid p-4 ssm:grid-row md:grid-cols-2">
+  return <article key={id} className="grid gap-2 md:grid-cols-3 md:text-2xl">
   <div>
-  <img className="md:h-48 w-96" src={image} alt="photos" />
+  <img className="p-2 md:h-96 w-96" src={image} alt="photos" />
   </div>
   <div>
-  <h1>{trranketString(title,120)}</h1>
+  <h1>{trranketString(title,70)}</h1>
   <Link to={title}>learn more...</Link>
   </div>
   </article>})}
    </section>
+   <Footer />
   </>)
 }
 export default Education;
