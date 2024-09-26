@@ -13,17 +13,16 @@ const Education = ()=>{
   }
   }
   return (<>
-  <section className="justify-center items-center">
+  <section className=" justify-center items-center mb-2">
   {data.education.map((res)=>{
   const {id,image,title} =res;
-  return <article key={id} className="grid gap-2 md:grid-cols-3 md:text-2xl">
-  <div>
-  <img className="p-2 md:h-96 w-96" src={image} alt="photos" />
-  </div>
-  <div>
-  <h1>{trranketString(title,70)}</h1>
-  <Link to={title}>learn more...</Link>
-  </div>
+  return <article key={id}>
+  <Link to={title} className="grid text-2xl mt-2 gap-2 ssm:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8">
+   <img className="md:h-48 w-72 lg:h-72 w-96" src={image} alt="photos" />
+   <h1>{trranketString(title,100)}</h1>
+      <img className="md:h-48 w-72 lg:h-72 w-96" src={image} alt="photos" />
+   <h1>{trranketString(title,100)}</h1>
+  </Link>
   </article>})}
    </section>
    <Footer />

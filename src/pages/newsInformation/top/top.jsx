@@ -13,18 +13,16 @@ const Top = ()=>{
   }
   }
   return (<>
-  <section className="justify-center items-center">
+  <section className="justify-center items-center mb-2 ssm:pl-2 pr-2">
   {data.top.map((res)=>{
-  const {id,image,title,content} =res;
-  return <article key={id} className="grid md:grid-cols-3  text-2xl">
-  <div className="pt-2 pl-1">
-  <img className="h-96 w-96" src={image} alt="photos" />
-  </div>
-  <div className="pl-2">
-  <h1>{trranketString(title,100)}</h1>
-  <Link to={title}>learn more...</Link>
-  </div>
-  <div><p>{content}</p></div>
+  const {id,image,title} =res;
+  return <article key={id}>
+  <Link to={title} className="grid text-2xl mt-2 gap-2 ssm:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8">
+   <img className="md:h-48 w-72 lg:h-72 w-96" src={image} alt="photos" />
+   <h1>{trranketString(title,100)}</h1>
+      <img className="md:h-48 w-72 lg:h-72 w-96" src={image} alt="photos" />
+   <h1>{trranketString(title,100)}</h1>
+  </Link>
   </article>})}
    </section>
    <Footer />
