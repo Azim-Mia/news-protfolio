@@ -1,6 +1,6 @@
 //import {Link} from 'react-router-dom';
 //import {useState,useEffect} from 'react';
-import '../../../index.css';
+import '../../index.css';
 //import { getAllData } from '/data/data/com.termux/files/home/news-protfolio/src/storeData/allData';
 import Footer from '/data/data/com.termux/files/home/news-protfolio/src/footer/footer';
 import Header from '/data/data/com.termux/files/home/news-protfolio/src/header/header'

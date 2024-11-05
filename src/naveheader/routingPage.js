@@ -4,7 +4,7 @@ import {
 } from "react-router-dom";
 import Navlinks from './navlink';
 import Error from '../error'
-import Home from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/home/home';
+import Home from '/data/data/com.termux/files/home/news-protfolio/src/pages/homePages/home';
 import Sport from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/sport/sport';
 import Nu from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/nu/nu';
 import Top from '/data/data/com.termux/files/home/news-protfolio/src/pages/newsInformation/top/top';

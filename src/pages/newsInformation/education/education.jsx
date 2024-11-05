@@ -13,7 +13,7 @@ const Education = ()=>{
   }
   }
   return (<>
-  <section className=" justify-center items-center mb-2">
+  <section className=" justify-center items-center mb-2 ssm:pl-2 pr-2">
   {data.education.map((res)=>{
   const {id,image,title} =res;
   return <article key={id}>
